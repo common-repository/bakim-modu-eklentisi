@@ -1,0 +1,90 @@
+#ccs_tabs	{
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	zoom: 1;
+	position:relative;
+	top:2px;
+	z-index: 1;
+}
+
+#ccs_tabs li {
+        border: 1px solid;
+        display: block;
+        list-style: none;
+        margin: 0;
+        float: left;
+        color: #ffffff;
+        width:132px;
+        height: 40px;
+}
+
+#ccs_tabs li a {
+        
+	display: block;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+        height: 40px;
+}
+
+.ccs-tab-section {
+	background:#fff;
+	padding: 10px;
+	
+}
+
+#ccs_tabs li a.current {
+        background: #006799;
+        border-bottom: 2px solid #d4efff;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+}
+.ccs-content-div{
+        width: 80%;
+    
+}
+
+.ccs_input
+{
+        margin:10px 10px 10px 50px; 
+        width: 65%;
+}
+
+.ccs_lable_design
+{
+    display:inline-block;
+    width: 15%;
+    margin: -18px 0px 0px 0px;
+}
+.ccs_lables
+{
+    display:inline-block;
+    width: 15%;
+  
+}
+
+.ccs_lable
+{
+    display:inline-block;
+    width: 10%;
+    
+}
+
+.button-secondary
+{
+    vertical-align: middle !important; 
+}
+
+.ccs_radio
+{   
+    float:right;
+    width:83%
+}
+
+.ccs_editor{ margin: -16px 0 0 125px;}
+
+.ccs-design{
+    height: 590px;
+}
